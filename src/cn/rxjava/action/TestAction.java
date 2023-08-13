@@ -19,6 +19,9 @@ import com.intellij.openapi.ui.MessageType;
  * ③ 子菜单位置放在第一个
  * ④ 为子菜单添加快捷键
  * 3.编写点击菜单的通知内容
+ * 部署插件
+ * 1.点击 Build-> Prepare plugin module *** for deployment
+ * 2.部署（从硬盘选择安装文件的方式）
  */
 public class TestAction extends AnAction {
 
