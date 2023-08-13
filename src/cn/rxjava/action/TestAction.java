@@ -22,6 +22,14 @@ import com.intellij.openapi.ui.MessageType;
  * 部署插件
  * 1.点击 Build-> Prepare plugin module *** for deployment
  * 2.部署（从硬盘选择安装文件的方式）
+ * <p>
+ * 同步github命令
+ * git remote add helloplugin git@github.com:DGUTyu/HelloPlugin.git
+ * git remote -v
+ * git fetch helloplugin main
+ * git merge --allow-unrelated-histories helloplugin/main
+ * gitk --all
+ * git push helloplugin main
  */
 public class TestAction extends AnAction {
 
